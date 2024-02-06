@@ -1,0 +1,185 @@
+.FifthSecionContainer {
+  width: 100%;
+  height: auto;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right top,
+    #080f12,
+    #0c1920,
+    #0b222e,
+    #082c3e,
+    #04354e
+  );
+}
+.slider {
+  width: 100%;
+  height: 65vh;
+}
+.headtextwork {
+  width: 100%;
+  height: 45vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  flex-direction: column;
+}
+.headtextwork h1 {
+  color: silver;
+  font-size: 2.2rem;
+  padding: 10px;
+}
+.headtextwork p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+  opacity: 0.8;
+}
+
+.ourclinets {
+  width: 100%;
+  height: 15vh;
+  flex-direction: column;
+  display: flex;
+}
+.outclinetsText {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: auto;
+  background: transparent;
+}
+.outclinetsText h1 {
+  font-size: 3rem;
+  color: black;
+}
+
+.clintes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  height: 45vh;
+  align-items: center;
+  justify-content: center;
+}
+#RFS-StepButton span {
+  color: black;
+  font-size: 1.1rem;
+}
+#RFS-Label {
+  color: white;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.clintesimges {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.forclintesimage {
+  width: 10%;
+  flex-direction: column;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 15vh;
+}
+.forclintesimage h1 {
+  color: silver;
+  padding: 10px;
+  border-bottom: 1px solid silver;
+}
+.forclintesimage img {
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider img {
+  height: auto;
+  object-fit: cover;
+  width: 60%;
+}
+.FivthSectionContainer {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.FivthSectionContainer.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.clintesimges {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.forclintesimage {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.forclintesimage.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media only screen and (max-width: 670px) {
+  .headtextwork {
+    height: 30vh;
+  }
+  .headtextwork h1 {
+    font-size: 1.5rem;
+  }
+  .headtextwork p {
+    font-size: 0.9rem;
+    width: 80%;
+    text-align: center;
+  }
+  .slider {
+    width: 100%;
+    height: 20vh;
+  }
+  .slider img {
+    width: 80%;
+  }
+  .headtexxxt {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    height: 30vh;
+  }
+  .clintes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .clintesimges {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .FifthSecionContainer {
+    height: 105vh;
+  }
+}

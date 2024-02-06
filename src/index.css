@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+  font-family: "Protest Strike", sans-serif;
+  font-family: "Roboto Slab", serif;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Protest+Strike&family=Roboto+Slab:wght@800&family=Ubuntu&display=swap");

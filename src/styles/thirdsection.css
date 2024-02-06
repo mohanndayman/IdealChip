@@ -1,0 +1,77 @@
+.ThirdSectionContainer {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-image: fill 0 linear-gradient(#0003, #000); /* your gradient here */
+  background-position: contain;
+  display: flex;
+  justify-content: space-around;
+  z-index: 99;
+}
+
+.thirdsecitonContent {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+}
+.fonrheadtext {
+  width: 100%;
+  flex-direction: column;
+  height: 60vh;
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.fonrheadtext p {
+  width: 50%;
+  font-size: 1.7rem;
+  color: silver;
+  opacity: 0.7;
+  padding: 18px;
+}
+
+.fonrheadtext h1 {
+  font-size: 2.5rem;
+  padding: 18px;
+  color: silver;
+  font-weight: 900;
+}
+.forh1andh2 {
+  width: 80%;
+  text-align: center;
+}
+.forh1andh2 h1 {
+  padding: 10px;
+  color: #2c539d;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.forh1andh2 h2 {
+  font-size: 1.5rem;
+  color: rgb(204, 200, 200);
+  opacity: 0.8;
+}
+@media only screen and (max-width: 670px) {
+  .fonrheadtext {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fonrheadtext h1 {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .fonrheadtext p {
+    font-size: 1.1rem;
+    text-align: center;
+
+    width: 100%;
+  }
+}
