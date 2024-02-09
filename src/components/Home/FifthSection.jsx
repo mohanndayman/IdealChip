@@ -4,7 +4,7 @@ import "../../styles/FivthSection.css";
 import ornage from "../../images/orange.webp";
 import zain from "../../images/zain.jpg";
 import umniha from "../../images/umniah.jpg";
-import steper from "../../images/steperfigma.png";
+import steper from "../../images/lastGroup.png";
 
 function FivthSection() {
   const [inViewRef, inView] = useInView({
@@ -21,7 +21,7 @@ function FivthSection() {
         <h1>How we do The work</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         <div className="slider">
-          <img src={steper} />
+          <img src={steper} style={{ width: "50%", height: "220px" }} />
         </div>
       </div>
 

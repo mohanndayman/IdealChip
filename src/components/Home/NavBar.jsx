@@ -13,7 +13,7 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink exact="true" to="/" className="nav-logo">
             <span>
               <img src={logo} alt="Company Logo" />
             </span>
@@ -30,7 +30,7 @@ function NavBar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/"
                 activeClassName="active"
                 className="nav-links"
@@ -41,7 +41,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/about"
                 activeClassName="active"
                 className="nav-links"
@@ -52,7 +52,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/blog"
                 activeClassName="active"
                 className="nav-links"
@@ -63,7 +63,7 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <NavLink
-                exact
+                exact="true"
                 to="/contact"
                 activeClassName="active"
                 className="nav-links"

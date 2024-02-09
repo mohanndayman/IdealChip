@@ -110,11 +110,7 @@
   align-items: center;
   justify-content: center;
 }
-.slider img {
-  height: auto;
-  object-fit: cover;
-  width: 60%;
-}
+
 .FivthSectionContainer {
   opacity: 0;
   transform: translateY(20px);
@@ -144,7 +140,7 @@
 }
 @media only screen and (max-width: 670px) {
   .headtextwork {
-    height: 30vh;
+    height: auto;
   }
   .headtextwork h1 {
     font-size: 1.5rem;
@@ -156,17 +152,16 @@
   }
   .slider {
     width: 100%;
-    height: 20vh;
+    height: 10vh;
   }
-  .slider img {
-    width: 80%;
-  }
+
   .headtexxxt {
     width: 100%;
     display: flex;
     justify-content: start;
-    height: 30vh;
+    height: 50vh;
   }
+
   .clintes {
     width: 100%;
     height: auto;
@@ -180,6 +175,6 @@
     gap: 50px;
   }
   .FifthSecionContainer {
-    height: 105vh;
+    height: auto;
   }
 }
