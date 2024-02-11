@@ -5,7 +5,14 @@
 
 .footer {
   color: #fff;
-  backdrop-filter: blur(500px);
+  background-image: linear-gradient(
+    to right top,
+    #080f12,
+    #0c1920,
+    #0b222e,
+    #082c3e,
+    #04354e
+  );
   height: 45vh;
   display: flex;
 }

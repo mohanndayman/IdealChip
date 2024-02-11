@@ -9,6 +9,7 @@ import FourthSection from "./FourthSection";
 import FifthSection from "./FifthSection";
 import SixthSection from "./SixthSection";
 import Footer from "./Footer";
+import ContactUs from "./ContactUs";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
       <FourthSection />
       <FifthSection />
       <SixthSection />
+      <ContactUs />
       <Footer />
     </div>
   );

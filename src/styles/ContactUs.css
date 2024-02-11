@@ -1,0 +1,62 @@
+.contactUsSection {
+  width: 100%;
+  height: 70vh;
+  z-index: 89;
+  background-image: linear-gradient(
+    to right top,
+    #080f12,
+    #0c1920,
+    #0b222e,
+    #082c3e,
+    #04354e
+  );
+}
+.ContactUsImage {
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  z-index: -1;
+}
+.ContactUsImage img {
+  width: 100%;
+  object-fit: cover;
+  height: 70vh;
+  opacity: 0.3;
+  border-image: fill 0 linear-gradient(#0003, #000); /* your gradient here */
+}
+.ContactUs {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+}
+.LeftFlexx {
+  width: 50%;
+  height: 70vh;
+}
+.RightFlexx {
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactUsSquare {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  backdrop-filter: blur(500px);
+}
+.ContactUsHeadText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 10vh;
+}
+.contactUsSection h1 {
+  padding: 10px;
+  color: silver;
+}
