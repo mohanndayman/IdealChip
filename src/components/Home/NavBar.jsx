@@ -15,7 +15,11 @@ function NavBar() {
         <div className="nav-container">
           <NavLink exact="true" to="/" className="nav-logo">
             <span>
-              <img src={logo} alt="Company Logo" />
+              <img
+                src={logo}
+                alt="Company Logo"
+                style={{ marginBottom: "10px" }}
+              />
             </span>
             {/* <i className="fas fa-code"></i> */}
 
